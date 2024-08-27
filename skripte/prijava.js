@@ -32,7 +32,7 @@ $(function(){
                     localStorage.setItem('apitoken', response.apitoken);
                     localStorage.setItem('type', response.type);
                     if(localStorage.getItem("type") === 'администратор'){
-                        window.location = 'administrator.html'; // zbod registrovanog korisnika
+                        window.location = 'administrator.html'; 
                     }
                     else if(localStorage.getItem("type") === 'благајник'){
                         window.location = 'blagajnik.html';
