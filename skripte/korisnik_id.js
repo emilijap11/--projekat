@@ -4,6 +4,8 @@ $(function() {
         let imeprezime = $('#provera_imeprezime');
         let sablon_imeprezime = /(?=^.{5,180}$)^[А-ЯЉЊШЂЧЋЖЏ][а-яčćžđšžљњшђчћжџ]+(?:[\s-][А-ЯЉЊШЂЧЋЖЏ][а-яčćžđšžљњшђчћжџ]+)+$|^[A-ZŠĐŽČĆ][a-zčćžđšž]+(?:[\s-][A-ZŠĐŽČĆ][a-zčćžđšž]+)+$/;
 
+
+        
         if (sablon_imeprezime.test(vrednost)) {
             $(this).css('outline', 'none');
             imeprezime.hide();
@@ -14,6 +16,8 @@ $(function() {
         }
     });
 
+
+    
 
     $('#telefon').on('blur', function () {
         let vrednost = $(this).val();
