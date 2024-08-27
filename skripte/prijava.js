@@ -52,18 +52,4 @@ $(function(){
     })
 });
 
-/*fetch(
-    'https://vsis.mef.edu.rs/projekat/ulaznice/public_html/api/korisnik?apitoken=GrGPqaYnq6wCyOSRG4LwwN3M8bnkct4dAG10FhJza0VvL0ytk9nycPfhqCzWLJGjcENzxH63Wp47BEXJJ56ZwZuxNF'
-)
-    .then(function (response) {
-        return respone.json();
-    })
-    .then(function (data) {
 
-        console.log(data);
-    })
-    .catch(function (err) {
-
-        console.warn('Greska', err);
-
-        Probao sam i ovako, ali opet vraca gresku server error 500*/
