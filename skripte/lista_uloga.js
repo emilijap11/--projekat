@@ -8,6 +8,9 @@ $(function(){
             "Authorization": "Bearer " + localStorage.getItem("apitoken")
         },
     };
+
+
+    
     let administrator = 0;
     let blagajnik = 0;
     let registrovani_korisnik = 0;
